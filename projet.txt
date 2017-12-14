@@ -1,0 +1,40 @@
+ceci est un fichier de test
+// telecharger lociciel sur git.scm et installer le logiciel avec "npm install git -D"
+
+// initialiser git
+// git init
+
+// configurer les identifiants
+// git config user.email=""
+// git config user.name=""
+
+// ajouter tous les fichiers au prochain commit (creation de version)
+// git add .
+// git add --a
+// git add filename
+// git reset (enlève le fichier du à committer - faire attention cela revient avant l'arborescence)
+
+// créer une version
+// git commit -m "mon message quelquonque"
+
+// utiliser "ungit" ou "sourcetree de Atlassian" ou "github desktop" ou "git scm"
+
+// git checkout #cle_commit -> retour dans le passé sur ce commit
+// git checkout #cle_commit fichier.html -> on recupere ce fichier tel qu'il était à ce commit
+
+// Defaire un commit
+// git revert #cle_commit
+
+// Branche
+// git branch
+// git branch "nom_de_la_branche"
+// git checkout nom_de_la_branche
+
+// Fusionner une branche avec le master
+// git merge branchdepart
+
+// Add distant sur github online ou sur bitbucket
+// git remote add origin https://github... (permet d'uplaoder les commit)
+// git push origin master (permet de mettre en ligne le projet)
+
+// git clone adresse_du_dossier (permet de recupérer le projet de quelqu'un d'autre)
